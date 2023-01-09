@@ -23,7 +23,6 @@ nav > .center {
   font-weight: bold;
   font-family: "Futura Md BT";
   font-size: 21px;
-  /* background-color: red; */
 }
 nav > .center > ul {
   list-style-type: none;
@@ -31,12 +30,12 @@ nav > .center > ul {
   justify-content: space-evenly;
 }
 nav > .right {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    width: 20%;
-    justify-content: space-evenly;
-    font-size: 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: space-evenly;
+  font-size: 24px;
 }
 /* main > section 1*/
 main > .page1 {
@@ -74,49 +73,123 @@ main > .page1 > .l > #l1 > button {
 /* main > section 2*/
 main > .p2 {
   width: 1920px;
-  height: 320px;
+  padding: 106px 100px 107px 100px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
 }
 main > .p2 > h1 {
   text-align: center;
-  font: normal normal bold 53px Manier;
+  font: normal normal bold 40px Manier;
   letter-spacing: 0px;
   color: #0f0f32;
   opacity: 1;
+  margin-bottom: 25px;
 }
 
 main > .p2 > h2 {
-    margin-top: -40px;
-  font: normal normal medium 48px Futura Md BT;
+  /* margin-top: -40px; */
+  font-family: "Futura Md BT";
+  color: #757575;
+  font-size: 20px;
   letter-spacing: 0px;
   color: #757575;
   opacity: 1;
 }
 
 /* main > section 3*/
-main > .p3{
-    background-color: pink;
-    width: 1920px;
-    height: 640px;
-    display: flex;
+main > .p3 {
+  background-color: pink;
+  width: 1920px;
+  height: 640px;
+  display: flex;
 }
-main > .p3 > .s{
-    height: 100%;
-    width: 33.3333%;
-    color: #fff;
-    font-size: 80px;
-    text-align: center;
+main > .p3 > .s {
+  height: 100%;
+  width: 33.3333%;
+  color: #fff;
+  font-size: 80px;
+  text-align: center;
 }
-main > .p3 > #s1{
-    background-color: #EFE1D8;
+main > .p3 > #s1 {
+  background-color: #efe1d8;
 }
-main > .p3 > #s2{
-    background-color: #D8EBD8;
+main > .p3 > #s2 {
+  background-color: #d8ebd8;
 }
-main > .p3 > #s3{
-    background-color: #C6D9E5;
+main > .p3 > #s3 {
+  background-color: #c6d9e5;
 }
+
+/* main > section 4 */
+main > .p4 {
+  width: 1920px;
+  padding: 108px 100px 148px 100px;
+}
+main > .p4 > .p4a {
+  text-align: center;
+}
+main > .p4 > .p4a > h1 {
+  font-family: "Manier";
+  font-size: 48px;
+  margin-bottom: 37px;
+}
+main > .p4 > .p4a > h3 {
+  font-size: 20px;
+  font-family: "Futura Md BT";
+  color: #757575;
+  margin-bottom: 107px;
+}
+main > .p4 > .p4b {
+  /* background-color: red; */
+  height: 687px;
+  display: flex;
+  justify-content: space-evenly;
+}
+main > .p4 > .p4b > #c1 {
+  /* width: 400px; */
+  background-color: blue;
+}
+main > .p4 > .p4b > #c1 > #c1a, #c2a, #c3a {
+  width: 400px;
+  height: 500px;
+  background-color: #f3f3f3;
+}
+main > .p4 > .p4b > #c1 > #c1b, #c2b, #c3b{
+  height: 187px;
+  background-color: #c6d9e5;
+}
+/* main section 5 */
+main > .p5 {
+  width: 1920px;
+  padding: 83px 0 0 100px;
+  background-color: #F3F3F3;
+}
+main > .p5 > h1 {
+  text-align: left;
+  font: normal normal bold 80px/96px Manier;
+  letter-spacing: 0px;
+  color: #0f0f32;
+  opacity: 1;
+  margin-bottom: 35px;
+}
+main > .p5 > h3 {
+  text-align: left;
+  font-family: "Futura Md BT";
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #757575;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+main > .p5 > button{
+  width: 177px;
+  height: 55px;
+  background: #0f0f32 0% 0% no-repeat padding-box;
+  border-radius: 50px;
+  opacity: 1;
+  font: normal normal medium 20px/24px Futura Md BT;
+  letter-spacing: 0px;
+  color: #f3f3f3;
+}
+
+ 
