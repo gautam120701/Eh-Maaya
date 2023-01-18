@@ -1,227 +1,263 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link
-  href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
-  rel="stylesheet"
-/>
-  <link rel="stylesheet" href="style.css">
- </head>
- <body>
-  <nav>
-    <div class="left">
-      <h1>Eh-Maaya</h1>
-    </div>
-    <div class="center">
-      <ul>
-        <li>Categories</li>
-        <li> <a href="#"> Ritual </a></li>
-        <li>Hair Type</li>
-        <li>Our Story</li>
-        <li>FAQ's</li>
-        <li>Contact</li>
-      </ul>
-    </div>
-    <div class="right">
-      <i id="a12" class="ri-search-line"></i>
-      <i class="ri-user-fill"></i>
-      <i class="ri-shopping-bag-line"></i>
-    </div>
-  </nav>
-  <!-- main -->
-  <main>
-    <div class="s1">
-      <div class="s1l">
-        <h1>Hair care Ritual <br> that changed <br> Dr. Shweta's life</h1>
-        <button>Shop</button>
-      </div>
-      <div class="s1r">
-        <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
-      </div>
-    </div>
-    <div class="s2">
-      <h1>Shop by Hair Type</h1>
-      <p>Every Hair texture is uniquely gifted. This uniqueness presents its own challenges; we encourage you to embrace this Individuality and leave those challenges to us. We got your back, but first, <br> <span> let's identify your hair type. </span></p>
-    </div>
-    <div class="s3">
-      <div class="s3cards" id="s31">       <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt=""></div>
-      <div class="s3cards" id="s32">       <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt=""></div>
-      <div class="s3cards" id="s33">       <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt=""></div>
-    </div>
-    <div class="s4">
-      <div class="s4u">
-        <h1>Shop By Best Sellers</h1>
-        <p>Everyone in the Eh-Maaya Sisterhood has their favorites. The "HOOD" has experienced these for their textures; they want to let you know, and here's how they want to connect with you. Check out the best sellers, experience</p>
-      </div>
-      <div class="s4d">
-        <div class="s4cards" id="c1">
-          <div class="cu">
-            <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
-          </div>
-          <div class="cd">
-            <h1>Fluidique Conditioner</h1>
-            <h2>For Straight Hairs</h2>
-            <h3>500 ₹</h3>
-          </div>
-<div class="button">
-  <button id="b1">Buy now</button> <button id="b2">Add to cart</button>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eh-Maaya</title>
+    <style id="base-inline-css" type="text/css">
+        a,article,aside,audio,b,blockquote,body,canvas,caption,center,dd,details,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,label,legend,li,mark,menu,nav,object,ol,p,pre,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,video{margin:0;padding:0;border:0;font-size:100%;font-weight:400;vertical-align:baseline;list-style:none;text-decoration:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}*{margin:0;padding:0;box-sizing:border-box;word-wrap:break-word;-webkit-tap-highlight-color:transparent}:after,:before{box-sizing:border-box}a{color:inherit;text-decoration:none;outline:0}img{width:100%;height:auto;display:block}:focus{outline:0;box-shadow:none}a:hover{cursor:pointer}button,input,textarea{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;border-radius:0;line-height:normal;outline:0;box-shadow:none;border:none;font-family:inherit;font-weight:inherit}button{display:inline-block;cursor:pointer;border:none}textarea{overflow:auto;vertical-align:top;resize:vertical}input[type=submit]{-webkit-appearance:none;-moz-appearance:none;cursor:pointer}a:focus,a:hover,button:focus,button:hover,textarea:focus{outline:0;cursor:pointer}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}ul{list-style:none}li a{display:block}.d-flex{display:flex}.flex-wrap{flex-wrap:wrap}.align-center{align-items:center}.align-end{align-items:flex-end}.align-start{align-items:flex-start}.justify-center{justify-content:center}.justify-content-between{justify-content:space-between}.justify-content-around{justify-content:space-around}.justify-content-end{justify-content:flex-end}.flex-column{flex-direction:column}.flex-row-reverse{flex-direction:row-reverse}.flex-grow{flex-grow:1}.text-center{text-align:center}.text-right{text-align:right}html{font-size:62.5%;scroll-behavior:smooth;height:100%;-webkit-text-size-adjust:100%}body{font-family:PlusJakartaSans,-apple-system,BlinkMacSystemFont,Segoe UI,segoe ui,SegoeUI,Segoe,Helvetica,Arial,sans-serif;color:#000;font-weight:400;overflow-x:hidden;-webkit-font-smoothing:antialiased;height:100%;background:#fff}.main{min-height:100%}.inner-wrap{min-height:100vh}.container{max-width:1156px;margin:0 auto;position:relative;padding:0 15px}.mob-only{display:none}
+    </style>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="main">
+        <div class="inner-wrap">
+            <div class="nav">
+                <div class="logo">
+                 <div class="img-wrap"> </div>
+                </div>
+                <div class="nav-center">
+                    <ul>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Ritual</a></li>
+                        <li><a href="#">Keep your Hair Type</a></li>  
+                        <li><a href="#">Our Story</a></li>  
+                        <li><a href="#">Ingredients</a></li>  
+                      </ul>
+                </div>
+                <div class="nav-right">
+                <a href=""> <i id="a12" class="ri-search-line"></i></a>
+                <a href=""> <i class="ri-user-fill"></i></a>
+                    <a href=""> <i class="ri-shopping-bag-line"></i></a>
+                </div>
+            </div>
+            <div class="section1">
+                <div class="left_wrap">
+                    <h1 class="title">Hair care Ritual <br> that changed <br> Dr. Shweta's life</h1>
+                    <button>Shop</button>
+                </div>
+                <div class="right_wrap">
+                    <div class="img-wrap"></div>
+                </div>
+            </div>
+            <div class="section2">
+                <h1>Shop by Hair Type</h1>
+                <p>Every Hair texture is uniquely gifted. This uniqueness presents its own challenges; we encourage you to embrace this Individuality and leave those challenges to us. We got your back, but first, <br> <span> let's identify your hair type. </span></p>
+            </div>
+            <div class="section3">
+                <div class="img-wrap" id="img-1">
+                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+                </div>
+                <div class="img-wrap" id="img-2">
+                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+                </div>
+                <div class="img-wrap" id="img-3">
+                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+                </div>
+            </div>
+            <div class="section4">
+                <div class="section4-up">
+                  <h1  id="title">Shop By Best Sellers</h1>
+                  <p>Everyone in the Eh-Maaya Sisterhood has their favorites. The "HOOD" has experienced these for their textures; they want to let you know, and here's how they want to connect with you. Check out the best sellers, experience</p>
+                </div>
+               <div class="section4-down">
+                    <div class="card">
+                        <div class="card-up">
+                            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80)" alt="">
+                        </div>
+                        <div class="card-down">
+                            <div class="card-title">
+                                <h1>Fluidique Conditioner</h1>
+                                <div class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            </div>
+                            <h2>For Straight Hairs</h2>
+                            <h3>500 ₹</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-up">
+                            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80)" alt="">
+                        </div>
+                        <div class="card-down">
+                            <div class="card-title">
+                                <h1>Fluidique Conditioner</h1>
+                                <div class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            </div>
+                            <h2>For Straight Hairs</h2>
+                            <h3>500 ₹</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-up">
+                            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80)" alt="">
+                        </div>
+                        <div class="card-down">
+                            <div class="card-title">
+                                <h1>Fluidique Conditioner</h1>
+                                <div class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            </div>
+                            <h2>For Straight Hairs</h2>
+                            <h3>500 ₹</h3>
+                        </div>
+                    </div>
+               </div>
+              </div> 
+            <div class="section5">
+                <div class="left-wrap">
+                    <h1 id="title">Our beauty philosophy</h1>
+                   <p> The Sisterhood wants to help you embrace your natural texture, your Individuality, whatever it may be. Put away that straightening iron, postpone that parlor visit, and embrace the change. This is the era of minimum effort and maximum hair health (not to mention confidence..!). We believe in a long-term approach and a long-term bond with you.</p>
+                    <button>Know more</button>
+                </div>
+                <div class="right-wrap"></div>
+            </div>
+            <div class="section6">
+                <h1 id="title">Recommended reads</h1>
+                <div class="sec6cards">
+                    <div class="card">
+                        <div class="card-up">
+                            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+                        </div>
+                        <div class="card-down">
+                            <h1>Blog title</h1>
+                            <p>The Sisterhood wants to help you embrace your <br> natural texture….</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-up">
+                            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+                        </div>
+                        <div class="card-down">
+                            <h1>Blog title</h1>
+                            <p>The Sisterhood wants to help you embrace your <br> natural texture….</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-up">
+                            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+                        </div>
+                        <div class="card-down">
+                            <h1>Blog title</h1>
+                            <p>The Sisterhood wants to help you embrace your <br> natural texture….</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section7">
+                <h1 id="title">She wants to know from her Sisterhood Experience</h1>
+                <div class="images">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+                    </div>
+                </div>
+            </div>
+           <div class="section8">
+            <div class="left-wrap">
+                <h1 id="title">Join the <br> sisterhood</h1>
+                <p>Get special offers and tips !</p>.
+                <input type="text" placeholder="Email or phone number"> <br>
+                <button>Submit</button>
+            </div>
+            <div class="right-wrap">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+            </div>
+           </div>
+           <div class="footer">
+            <div class="footer-up">
+            <div class="products">
+              <h1>PRODUCTS</h1> 
+              <div class="products-down">
+              <div class="product-list">
+                <h2>Straight hair</h2>
+                <ul>
+                  <li>Pre wash <i class="ri-arrow-down-s-line"></i></li>
+                  <li>Wash <i class="ri-arrow-down-s-line"></i></li>
+                </ul>
+              </div>
+              <div class="product-list">
+                <h2>Wavy hair</h2>
+                <ul>
+                  <li>Pre wash <i class="ri-arrow-down-s-line"></i></li>
+                  <li>Wash <i class="ri-arrow-down-s-line"></i></li>
+                </ul>
+              </div>
+              <div class="product-list">
+                <h2>Curly hair</h2>
+                <ul>
+                  <li>Pre wash <i class="ri-arrow-down-s-line"></i></li>
+                  <li>Wash <i class="ri-arrow-down-s-line"></i></li>
+                </ul>
+              </div>
+            </div>
+            </div>
+            <div class="education">
+              <h1>EDUCATION</h1>
+              <ul>
+                <li>Know your Hair Type
+                  <li>FAQ's</li>
+                  <li>Ritual</li>
+                  <li>Ingredients</li>
+                </li>
+              </ul>
+            </div>
+            <div class="info">
+              <h1>INFO</h1>
+              <ul>
+                <li> <a href="#"> Eh-maaya privacy policy </a></li>
+                <li> <a href="#"> Return Policy</a></li>
+                <li> <a href="#"> Shipping Policy</a></li>
+              </ul>
+            </div>
+            <div class="icons">
+              <i class="ri-instagram-line"></i>
+              <i class="ri-facebook-fill"></i>
+              <i class="ri-youtube-line"></i>
+            </div>
+            </div>
+            <div class="footer-down">
+              <div class="down-sec-1">
+                <h2>India</h2> 
+              </div>
+              <div class="down-sec-2">
+                <h2>All rights reserved. 2023.</h2>
+              </div>
+              <div class="down-sec-3">
+                <h2>Terms of sale</h2>
+                <h2>Terms of use</h2>
+              </div>
+            </div>
         </div>
-        <div class="s4cards" id="c2">
-          <div class="cu">
-            <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
-          </div>
-          <div class="cd">
-            <h1>Fluidique Conditioner</h1>
-            <h2>For Straight Hairs</h2>
-            <h3>500 ₹</h3>
-          </div>
-          <div class="button">
-            <button id="b1">Buy now</button> <button id="b2">Add to cart</button>
-          </div>
+        <div class="footer2">
         </div>
-        <div class="s4cards" id="c3">
-          <div class="cu">
-            <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
-          </div>
-          <div class="cd">
-            <h1>Fluidique Conditioner</h1>
-            <h2>For Straight Hairs</h2>
-            <h3>500 ₹</h3>
-          </div>
-          <div class="button">
-            <button id="b1">Buy now</button> <button id="b2">Add to cart</button>
-          </div>
         </div>
-      </div>
     </div>
-    <div class="s5">
-      <div class="s5l">
-        <h1>Our beauty philosophy</h1>
-        <p>The Sisterhood wants to help you embrace your natural texture, your Individuality, whatever it may be. Put away that straightening iron, postpone that parlor visit, and embrace the change. This is the era of minimum effort and maximum hair health (not to mention confidence..!). We believe in a long-term approach and a long-term bond with you.</p>
-        <button>Know more</button>
-      </div>
-      <div class="s5r">
-        <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
-      </div>
-    </div>
-    <div class="s6">
-      <h1>Recommended reads</h1>
-     <div class="s6b">
-      <div class="s6card">
-        <div class="cu"> <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt=""></div>
-        <div class="cd">
-          <h1>Blog title</h1>
-          <p>The Sisterhood wants to help you embrace your <br> natural texture….</p>
-        </div>
-      </div>
-      <div class="s6card">
-          <div class="cu"> <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt=""></div>
-        <div class="cd">
-          <h1>Blog title</h1>
-          <p>The Sisterhood wants to help you embrace your <br> natural texture….</p>
-        </div>
-      </div>
-      <div class="s6card">
-          <div class="cu"> <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt=""></div>
-        <div class="cd">
-          <h1>Blog title</h1>
-          <p>The Sisterhood wants to help you embrace your <br> natural texture….</p>
-        </div>
-      </div>
-     </div>
-     <div class="s6c">
-      <h1>She wants to know from her Sisterhood Experience</h1>
-     </div>
-     <div class="s6d">
-      <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt=""> 
-      <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt=""> 
-      <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
-     </div>
-     <div class="s6e">
-      <div class="s6el">
-        <h1>Join the sisterhood</h1>
-        <h3>Get special offers and tips !</h3>
-        <input type="text" placeholder="&nbsp;&nbsp; Email or phone number"> <br>
-        <button>Submit</button>
-      </div>
-      <div class="s6er">
-        <img class="img-wrap" src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
-      </div>
-     </div>
-    </div>
-  </main>
-  <footer>
-    <div class="fu">
-    <div class="fu1">
-      <h1>PRODUCTS</h1> 
-      <div class="fu11">
-      <div class="fu1a">
-        <h2>Straight hair</h2>
-        <ul>
-          <li>Pre wash <i class="ri-arrow-down-s-line"></i></li>
-          <li>Wash <i class="ri-arrow-down-s-line"></i></li>
-        </ul>
-      </div>
-      <div class="fu1a">
-        <h2>Wavy hair</h2>
-        <ul>
-          <li>Pre wash <i class="ri-arrow-down-s-line"></i></li>
-          <li>Wash <i class="ri-arrow-down-s-line"></i></li>
-        </ul>
-      </div>
-      <div class="fu1a">
-        <h2>Curly hair</h2>
-        <ul>
-          <li>Pre wash <i class="ri-arrow-down-s-line"></i></li>
-          <li>Wash <i class="ri-arrow-down-s-line"></i></li>
-        </ul>
-      </div>
-    </div>
-    </div>
-    <div class="fu2">
-      <h1>EDUCATION</h1>
-      <ul>
-        <li>Know your Hair Type
-          <li>FAQ's</li>
-          <li>Ritual</li>
-          <li>Ingredients</li>
-        </li>
-      </ul>
-    </div>
-    <div class="fu3">
-      <h1>INFO</h1>
-      <ul>
-        <li>Eh-maaya privacy policy</li>
-        <li>Return Policy</li>
-        <li>Shipping Policy</li>
-      </ul>
-    </div>
-    <div class="fu4">
-      <i class="ri-instagram-line"></i>
-      <i class="ri-facebook-fill"></i>
-      <i class="ri-youtube-line"></i>
-    </div>
-    </div>
-    <div class="fd">
-      <div class="fdl">
-        <h2>India</h2>
-      </div>
-      <div class="fdc">
-        <h2>All rights reserved. 2023.</h2>
-      </div>
-      <div class="fdr">
-        <h2>Terms of sale</h2>
-        <h2>Terms of use</h2>
-      </div>
-    </div>
-</footer>
-<div class="footer2">
-  
-</div>
- </body>
- </html>
+</body>
+</html>
