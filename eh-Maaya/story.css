@@ -41,24 +41,24 @@ opacity: 1;
     font-size: 24px;
   }
   /* main > s1 */
-  .s1{
+  .section1{
     width: 1920px;
     background-color: #f3f3f3;
     display: flex;
     justify-content: space-between;
   }
-  .s1 > .s1l{
+  .section1 > .sec1-left{
       padding: 369px 0 0 101px;
     
   }
-  .s1 > .s1l > h1{
+.sec1-left > h1{
     text-align: left;
 font: normal normal bold 80px/96px Manier;
 letter-spacing: 0px;
 color: #0F0F32;
 opacity: 1;
   }
-  .s1 > .s1l > p{
+  .section1 > .sec1-left > p{
   /* color: #B5B6B5; */
     margin-top: 20px;
     text-align: left;
@@ -66,7 +66,7 @@ font: normal normal medium 29px Jost;
 letter-spacing: 0px;
 opacity: 1;
   }
-  .s1 > .s1r > img{
+  .sec1-right > img{
     width: 1086px;
     height: 872px;
     margin-right: 31px;
@@ -75,44 +75,44 @@ opacity: 1;
     max-width: 100%;
     height: auto;
   }
-  .s2 {
+  .section2 {
     width: 1920px;
     padding: 100px 225px 0 226px;
     background-color: white;
   }
-  .s2 > h1{
+  .section2 > h1{
     text-align: center;
 font: normal normal bold 40px/48px Manier;
 letter-spacing: 0px;
 color: #0F0F32;
 opacity: 1;
   }
-  .s2 > p{
+  .section2 > p{
     margin-top: 50px;
     text-align: center;
     font: normal normal medium 29px Jost;
     letter-spacing: 0px;
     color: #757575;
   }
-  .s2 > img{
+  .section2 > img{
     /* width: 1469px; */
 height: 726px;
 margin: 50px 225px 0 226px;
 
   }
-  .s3 {
+  .section3 {
     width: 1920px;
     background-color: #0F0E26;
     padding: 60px 537px 50px 537px;
   }
-  .s3 > h1{
+  .section3 > h1{
     text-align: center;
 font: normal normal bold 40px/48px Manier;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
   }
-  .s3 > p{ 
+  .section3 > p{ 
     margin-top: 50px;
     text-align: center;
 font: normal normal medium 20px/29px Jost;
@@ -120,37 +120,37 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
   }
-  .s4{
+  .section4{
     background-color: #F3F3F3;
     width: 1920px;
     padding: 100px 100px 99px 100px;
   }
-  .s4 > h1{
+  .section4 > h1{
     text-align: center;
 font: normal normal bold 40px/48px Manier;
 letter-spacing: 0px;
 color: #0F0F32;
 opacity: 1;
   }
-  .s4 > p{
+  .section4 > p{
     margin: 50px 300px 0 280px;
     text-align: left;
 letter-spacing: 0px;
 color: #757575;
 opacity: 1;
   }
-  .s4 > .s4cards {
+  .section4 > .section4cards {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
   }
-  .s4 > .s4cards > .card{
+  .section4cards > .card{
     width: 550px;
     height: 800px;
     background-color: white;
     padding: 42px 120px 0 30px;
   }
-  .s4 > .s4cards > .card > h1{
+  .section4cards > .card > h1{
 text-align: left;
 font: normal normal bold 40px/48px Manier;
 letter-spacing: 0px;
@@ -158,33 +158,33 @@ color: #0F0F32;
 opacity: 1;
 margin-bottom: 30px;
   }
-  .s4 > .s4cards > .card > p{
+ .section4cards > .card > p{
     text-align: left;
 font: normal normal normal 20px/29px Jost;
 letter-spacing: 0px;
 color: #757575;
 opacity: 1;
   }
-  .s4 > .s4cards > .card > img{
+ .section4cards > .card > img{
  max-width: 100%;
  height: auto;
   }
-  .s5{
+  .section5{
     width: 1920px;
     display: flex;
   }
-  .s5 > .s5l{
+  .section5 > .sec5-left{
     width: 960px;
     padding: 143px 143px 155px 100px;
   }
-  .s5 > .s5l > h1{
+  .sec5-left > h1{
     text-align: left;
 font: normal normal bold 40px/48px Manier;
 letter-spacing: 0px;
 color: #0F0F32;
 opacity: 1;
   }
-  .s5 > .s5l > p{
+  .sec5-left > p{
     margin-top: 50px;
     text-align: left;
 font: normal normal medium 20px/29px Jost;
@@ -192,7 +192,7 @@ letter-spacing: 0px;
 color: #757575;
 opacity: 1;
   }
-.s5 > .s5l > button{
+  .sec5-left > button{
   width: 211px;
 height: 55px;
   margin-top: 33px;
@@ -201,37 +201,37 @@ height: 55px;
 border-radius: 50px;
 opacity: 1;
 }
-.s5 > .s5r{
+.section5 > .sec5-right{
   width: 960px;
   background-image: url("https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
 }
-.s6{
+.section6{
   width: 1920px;
   padding: 340px 267px 319px 267px;
   background-color: rgba(0, 0, 255, 0.503);
 }
-.s6 > p{
+.section6 > p{
   text-align: left;
 font: normal normal medium 58px Jost;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 }
-.s7{
+.section7{
   width: 1920px;
   display: flex;
 }
-.s7 > .s7l{
+.section7> .sec7-left{
   padding: 100px 0 504px 100px;
 }
-.s7 > .s7l > h1{
+.sec7-left > h1{
   text-align: left;
 font: normal normal bold 80px/96px Manier;
 letter-spacing: 0px;
 color: #0F0F32;
 opacity: 1;
 }
-.s7 > .s7l > p{
+.sec7-left > p{
   margin: 20px 0 20px 0;
   text-align: left;
 font: normal normal bold 20px/29px Jost;
@@ -239,7 +239,7 @@ letter-spacing: 0px;
 color: #0F0F32;
 opacity: 1;
 }
-.s7 > .s7l > button{
+.sec7-left > button{
   color: white;
   width: 211px;
   height: 55px;
@@ -247,11 +247,11 @@ opacity: 1;
   border-radius: 50px;
   opacity: 1;
 }
-.s7 > .s7r {
+.section7> .sec7-right{
   padding: 101px 47px 0 0;
 
 }
-.s7 > .s7r > img{
+.sec7-right> img{
   height: 837px;
   width: 769px;
 }
