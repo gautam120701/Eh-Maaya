@@ -1,0 +1,118 @@
+.section1 {
+    width: 1920px;
+    display: flex;
+    padding-left: 100px;
+  }
+  .sec1-left {
+    width: 1002px;
+  }
+  .sec1-left > h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #0f0f32;
+    font-family: "Manier";
+    opacity: 1;
+    text-align: left;
+    margin: 225px 0 7px 0;
+    letter-spacing: 0px;
+  }
+  .sec1-left > p {
+    margin-top: 7px;
+    text-align: left;
+    font: normal normal 500 20px Jost;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  .sec1-right > img {
+    height: 1080px;
+  }
+  
+  /* section 2............................................................. */
+  .section2 {
+    background: #f3f3f3 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 50px 0 69px 101px;
+  }
+  .section2 #title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0f0f32;
+    font-family: "Manier";
+    opacity: 1;
+    letter-spacing: 0px;
+    margin-bottom: 50px;
+  }
+  .sec2-down .faq {
+    width: 1052px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: medium;
+    color: #707070;
+    font-family: "Jost";
+    opacity: 1;
+    text-align: left;
+    letter-spacing: 0px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    margin-bottom: 50px;
+    padding: 0 18px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* section 8............................................................. */
+  .section8 {
+    display: flex;
+    padding: 0 118px 0 100px;
+  }
+  .section8 .left-wrap #title {
+    font-size: 80px;
+    font-weight: bold;
+    color: #000000;
+    font-family: "Manier";
+    opacity: 1;
+    text-align: left;
+    margin: 211px 0 24px 0;
+  }
+  .section8 .left-wrap p {
+    font-size: 29px;
+    font-weight: normal;
+    color: #757575;
+    font-family: "Jost";
+    opacity: 1;
+  }
+  .section8 .left-wrap input {
+    width: 453px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #c9c9c9;
+    font-family: "Jost";
+    opacity: 1;
+    background: #f3f3f3 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 25px;
+    padding-left: 20px;
+    margin: 47px 0 50px 0;
+  }
+  .section8 .left-wrap button {
+    width: 177px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #f3f3f3;
+    font-family: "Jost";
+    opacity: 1;
+    background: #0f0f32 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+  }
+  .section8 .right-wrap img {
+    /* max-width: 100%;
+        height: auto; */
+    /* temporary width & height */
+    width: 985px;
+    height: 703px;
+    margin: 100px 0 0 172px;
+  }
