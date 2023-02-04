@@ -1,0 +1,151 @@
+/* common classes */
+.container{
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
+.inner-wrap{
+    /* max-width: 1920px; */
+    /* min-height: auto; */
+}
+.title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #0F0F32;
+    font-family: "Manier";
+}
+.para{
+    font-size: 20px;
+    font-weight: normal;
+    color: #8B8E8B;
+    font-family: "Jost";
+}
+.img-wrap{
+    max-width: 100%;
+    height: auto;
+}
+.btn{
+    width: 177px;
+   height: 55px;
+   font-family: "Jost";
+   border-radius: 50px;
+   }
+
+/* section1............................................................ */
+.section1{
+    /* width: 1920px; */
+}
+.section1 .container{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+#sec1-container{
+    background-color: #f3f3f3;
+}
+#sec1-inner-wrap{
+    display: flex;
+}
+.sec1-left-wrap{
+    /* background-color: red; */
+    /* width: 655px; */
+   margin-top: 300px;
+   margin-left: 101px;
+}
+#sec1-para{
+    margin-top: 20px;
+}
+.sec1-right-wrap{
+    margin-left: 47px;
+    width: 1086px;
+}
+/* section2........................................................... */
+.sec2-heading{
+    padding: 100px 225px 0 226px;
+}
+#sec2-title{
+    font-size: 40px;
+    text-align: center;
+    /* margin-top: 100px; */
+}
+#sec2-para{
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+#sec2-img-wrap{
+margin-top: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/* section3.............................................. */
+#sec3-container{
+    background-color: #0F0E26;
+    color: #ffff;
+}
+#sec3-inner-wrap{
+    padding: 61px 347px 61px 280px;
+    text-align: center;
+}
+#sec3-title{
+    font-size: 40px;
+    color: #ffff;
+}
+#sec3-para{
+    margin-top: 50px;
+}
+/* section4........................................ */
+#sec4-inner-wrap{
+    padding: 100px 300px 50px 280px;
+    /* background-color: red; */
+}
+#sec4-title{
+    font-size: 40px;
+    text-align: center;
+}
+#sec4-para{
+    margin-top: 50px;
+    text-align: center;
+}
+/* section5.............................................................. */
+#sec5-inner-wrap{
+    display: flex;
+}
+.sec5-left-wrap{
+    margin-top: 293px;
+    margin-left: 100px;
+}
+#sec5-title{
+    font-size: 40px;
+}
+#sec5-para{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#sec5-btn{
+    margin-top: 70px;
+    background-color: #0F0E26;
+    color: #f3f3f3;
+}
+/* section6............................................................ */
+#sec6-inner-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.sec6-left-wrap{
+    margin-left: 100px;
+}
+#sec6-para{
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+}
+#sec6-btn{
+    background-color: #0F0E26;
+    color: #f3f3f3;
+    margin-top: 50px;
+}
+.sec6-right-wrap{
+  width: 814px;
+}
