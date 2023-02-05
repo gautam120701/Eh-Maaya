@@ -21,9 +21,9 @@ $__duplicate[] = $content;
   while(have_posts()) : the_post(); 
 ?>
   <style>
-     #sec1-img{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_pic1.png'); } 
-     #sec2-img{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/ritual_product.png'); }
-     #sishood{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/sishood.png'); }
+     .sec1-right-wrap{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_pic1.png'); } 
+     .sec2-right-wrap{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/ritual_product.png'); }
+     .sec4-right-wrap{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/sishood.png'); }
     
   </style>
        <!-- section1 -->
@@ -32,21 +32,18 @@ $__duplicate[] = $content;
               <div class="inner-wrap" id="sec1-inner-wrap">
                 <div class="sec1-left-wrap">
                   <h1 class="title" id="sec1-title">
-                    Hair care <span> Ritual</span> <br />
+                    Hair care <a class="anchor" href="#"> Ritual</a> <br />
                     that changed <br />
                     Dr. Shweta's life
                   </h1>
                   <p class="para" id="sec1-para">
-                    <span>Dr. Shweta</span> is a practicing Radiologist, an
+                <a class="anchor" href="#">Dr. Shweta </a>is a practicing Radiologist, an
                     entrepreneur, a homemaker, a loving 
                     mother of two daughters, and our founder. <br><br>
                     She experimented on her hair for 15 years with treatments  and products, but she was still unhappy with her hair. The results were short-lived and harmed hair quality. Her hair was her uniqueness, her personality, and she wanted it back the way it was.
                   </p>
                 </div>
                 <div class="sec1-right-wrap">
-                  <div class="img-wrap" id="sec1-img">
-                    <!-- <img src="images/ritual/sec1.png" alt="" /> -->
-                  </div>
                 </div>
               </div>
             </div>
@@ -80,9 +77,6 @@ $__duplicate[] = $content;
                   <h1 class="title" id="sec2-head4">The Eh-Maaya Ritual</h1>
                 </div>
                 <div class="sec2-right-wrap">
-                  <div class="img-wrap" id="sec2-img">
-                    <!-- <img src="images/ritual/Group 415.png" alt="" /> -->
-                  </div>
                 </div>
               </div>
             </div>
@@ -189,9 +183,6 @@ $__duplicate[] = $content;
                         <button class="btn" id="sec4-btn">Submit</button>
                     </div>
                     <div class="sec4-right-wrap">
-                        <div class="img-wrap" id="sishood">
-                            <!-- <img src="images/ritual/sisterhood'.png" alt=""> -->
-                        </div>
                     </div>
                 </div>
             </div>
