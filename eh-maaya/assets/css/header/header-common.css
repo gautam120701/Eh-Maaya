@@ -5,20 +5,20 @@ header{
 }
 #header-inner-wrap{
   position: relative;
-  max-width: 1920px;
+  max-width: 1024px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  padding: 64px 0;
+  padding: 20px 0;
 }
 .header-center{
-margin-left: 216.5px;
+margin-left: 100px;
 }
 .desktop-menu-container{
-  width: 717px;
+  width: 500px;
 }
 .menu{
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: normal;
   color: #0F0F32;
   font-family: "Jost";
@@ -26,16 +26,12 @@ margin-left: 216.5px;
   display: flex;
   justify-content: space-between;
 }
-.icons-container{
-  /* background-color: red; */
-  width: 120px;
-}
+
 .icons{
   display: flex;
   justify-content: space-between;
 }
-
 #logo{
-  width: 301px;
-  height: 62px;
+  width: 200px;
+  height: 50px;
 }
