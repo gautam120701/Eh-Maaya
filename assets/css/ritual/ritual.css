@@ -1,0 +1,171 @@
+/* common classes */
+.container{
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+}
+.inner-wrap{
+    min-height: auto;
+}
+.title{
+    font-size: 8.0em;
+    font-weight: bold;
+    color: #0F0F32;
+    font-family: "Manier";
+}
+.para{
+    font-size: 2.0em;
+    font-weight: normal;
+    color: #8B8E8B;
+    font-family: "Jost";
+}
+.img-wrap{
+    max-width: 100%;
+    height: auto;
+}
+.btn{
+    width: 177px;
+   height: 55px;
+   font-family: "Jost";
+   border-radius: 50px;
+   }
+   span{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+   }
+/* section1........................................................ */
+#sec1-container{
+    background-color: #f3f3f3;
+}
+#sec1-inner-wrap{
+        display: flex;
+}
+.sec1-left-wrap{
+    padding-top: 245px;
+    padding-left: 100px;
+}
+#sec1-para{
+    margin-top: 50px;
+}
+.sec1-right-wrap{
+    margin-top: 100px;
+    width: 1150px;
+}
+#sec1-img{
+    margin-top: 100px;
+    width: 1170px;
+    height: 820px;
+}
+/* section2......................................... */
+#sec2-inner-wrap{
+        display: flex;
+}
+.sec2-left-wrap{
+    padding-top: 59px;
+    padding-left: 101px;
+    /* background-color: red; */
+}
+#sec2-head1{
+    font-size: 4em;
+}
+#sec2-head2{
+    font-size: 2em;
+    color: #0F0F32;
+    margin-top: 75px;
+}
+#sec2-head3{
+    font-size: 8em;
+    font-weight: bold;
+    color: #0F0F32;
+}
+.list{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.list li{
+    list-style-type: disc;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#sec2-btn{
+    background-color: #0F0F32;
+    color: #f3f3f3;
+    margin-top: 19px;
+}
+#sec2-head4{
+    font-size: 4em;
+    margin-top: 95px;
+}
+.sec2-right-wrap{
+    margin-left: 269px;
+}
+#sec2-img{
+    width: 750px;
+    height: 950px;
+}
+/* section3................................................................ */
+#sec3-container{
+    margin-top: 52px;
+    background-color: #f3f3f3;
+    padding: 50px 0 69px 101px;
+}
+#sec3-title{
+    font-size: 4em;
+}
+.faq{
+width: 1052px;
+height: 50px;
+background-color:  #FFFFFF;
+margin-top: 50px;
+border: none;
+border-radius: 15px;
+padding: 13px 20px 10px 30px;
+display: flex;
+justify-content: space-between;
+}
+.faq .text h1{
+    font-size: 2em;
+    font-weight: normal;
+    color: #707070;
+}
+.faq .add h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: #0F0F32;
+}
+/* section4................................................................. */
+
+#sec4-inner-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.sec4-left-wrap{
+    padding-top: 136.5px;
+    padding-left: 100px;
+
+}
+#sec4-para{
+    margin-top: 24px;
+}
+.input{
+    width: 453px;
+height: 50px;
+background-color: #f3f3f3;
+border: none;
+border-radius: 25px;
+/* padding-left: 17.5px; */
+padding: 13.5px 17.5px;
+margin-top: 47px;
+}
+#sec4-btn{
+    background-color: #0F0F32;
+    color: #f3f3f3;
+    margin-top: 50px;
+}
+#sishood{
+    margin-top: 25px;
+    width: 985px;
+    height: 703px;
+}
