@@ -4,17 +4,16 @@
     position: relative;
     margin: 0 auto;
 }
-.inner-wrap{
-    min-height: auto;
-}
 .title{
-    font-size: 8.0em;
+    font-size: 4em;
+    line-height: 1.25;
     font-weight: bold;
     color: #0F0F32;
     font-family: "Manier";
 }
 .para{
-    font-size: 2.0em;
+    font-size: 1.5em;
+    line-height: 1.25;
     font-weight: normal;
     color: #8B8E8B;
     font-family: "Jost";
@@ -24,58 +23,63 @@
     height: auto;
 }
 .btn{
-    width: 177px;
-   height: 55px;
+    width: 130px;
+   height: 35px;
    font-family: "Jost";
    border-radius: 50px;
    }
-   span{
+   .anchor{
     text-decoration: underline;
     font-weight: bold;
     color: black;
    }
 /* section1........................................................ */
-#sec1-container{
+.section1{
     background-color: #f3f3f3;
 }
 #sec1-inner-wrap{
         display: flex;
+        justify-content: space-between;
 }
 .sec1-left-wrap{
-    padding-top: 245px;
-    padding-left: 100px;
+    padding-top: 80px;
+    width: 37%;
 }
 #sec1-para{
     margin-top: 50px;
 }
 .sec1-right-wrap{
-    margin-top: 100px;
-    width: 1150px;
+    width: 63%;
+    max-width: 1170px;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px 0 0 0;
 }
-#sec1-img{
-    margin-top: 100px;
-    width: 1170px;
-    height: 820px;
-}
+
 /* section2......................................... */
 #sec2-inner-wrap{
         display: flex;
 }
 .sec2-left-wrap{
+    width: 50%;
     padding-top: 59px;
-    padding-left: 101px;
+    /* padding-left: 101px; */
     /* background-color: red; */
 }
 #sec2-head1{
-    font-size: 4em;
+    font-size: 3em;
+    line-height: 1.25;
 }
 #sec2-head2{
-    font-size: 2em;
+    font-size: 1.5em;
+    line-height: 1.5;
     color: #0F0F32;
     margin-top: 75px;
 }
 #sec2-head3{
-    font-size: 8em;
+    font-size: 4em;
+    line-height: 1.5;
     font-weight: bold;
     color: #0F0F32;
 }
@@ -85,7 +89,8 @@
 }
 .list li{
     list-style-type: disc;
-    font-size: 2em;
+    font-size: 1.5em;
+    line-height: 1.5;
     font-weight: bold;
     margin-top: 30px;
 }
@@ -95,77 +100,91 @@
     margin-top: 19px;
 }
 #sec2-head4{
-    font-size: 4em;
+    font-size: 3em;
+    line-height: 1.5;
     margin-top: 95px;
 }
 .sec2-right-wrap{
-    margin-left: 269px;
-}
-#sec2-img{
-    width: 750px;
-    height: 950px;
+    width: 50%;
+    max-width: 750px;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px -120px 0 0;
 }
 /* section3................................................................ */
+.section3{
+    background-color: #f3f3f3;
+}
 #sec3-container{
     margin-top: 52px;
-    background-color: #f3f3f3;
-    padding: 50px 0 69px 101px;
+    padding: 50px 0 69px 0;
 }
 #sec3-title{
-    font-size: 4em;
+    font-size: 3em;
+    line-height: 1.5;
 }
 .faq{
-width: 1052px;
-height: 50px;
+width: 700px;
+height: 40px;
 background-color:  #FFFFFF;
-margin-top: 50px;
+margin-top: 30px;
 border: none;
-border-radius: 15px;
-padding: 13px 20px 10px 30px;
+border-radius: 10px;
+padding: 0 20px;
 display: flex;
+align-items: center;
 justify-content: space-between;
 }
 .faq .text h1{
-    font-size: 2em;
+    font-size: 1.35em;
+    line-height: 1.5;
     font-weight: normal;
     color: #707070;
 }
 .faq .add h1{
-    font-size: 2em;
+    font-size: 1.35em;
+    line-height: 1.5;
     font-weight: bold;
     color: #0F0F32;
 }
 /* section4................................................................. */
 
+#sec4-container{
+    margin-top: 100px;
+    }
 #sec4-inner-wrap{
     display: flex;
     justify-content: space-between;
 }
 .sec4-left-wrap{
-    padding-top: 136.5px;
-    padding-left: 100px;
-
+    /* padding-top: 136.5px; */
+    /* padding-left: 100px; */
+    width: 35%;
 }
 #sec4-para{
     margin-top: 24px;
 }
 .input{
-    width: 453px;
-height: 50px;
-background-color: #f3f3f3;
-border: none;
-border-radius: 25px;
-/* padding-left: 17.5px; */
-padding: 13.5px 17.5px;
-margin-top: 47px;
+    width: 260px;
+    height: 35px;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 25px;
+    /* padding-left: 17.5px; */
+    padding: 13.5px 17.5px;
+    margin-top: 25px;
 }
 #sec4-btn{
     background-color: #0F0F32;
     color: #f3f3f3;
     margin-top: 50px;
 }
-#sishood{
-    margin-top: 25px;
-    width: 985px;
-    height: 703px;
+.sec4-right-wrap{
+    width: 65%;
+    max-width: 985px;
+    height: 440px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  margin-left: 30px;
 }
