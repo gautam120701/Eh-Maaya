@@ -1,4 +1,4 @@
-  <?php
+   <?php
   /*** 
     Template Name: Home
     Template Post Type: post, page
@@ -25,17 +25,19 @@
       #sec2-card1{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_straight.png'); }
       #sec2-card2{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_wavy.png'); } 
       #sec2-card3{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_curly.png'); } 
-      #sec3-product1{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_product1.png'); } 
-      #sec3-product2{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_product2.png'); } 
-      #sec3-product3{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_product3.png'); } 
-      #beauty_p{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_beauty_philosphy.png'); }
+      .product1-img{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_product1.png'); } 
+      .product2-img{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_product2.png'); } 
+      .product3-img{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_product3.png'); } 
+      .sec4-right-wrap{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_beauty_philosphy.png'); }
       #sec5-c1{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_rc1.png'); }
       #sec5-c2{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_rc2.png'); }
       #sec5-c3{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_rc3.png'); }
       #sec6-c1{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_hear_it.png'); }
       #sec6-c2{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_hear_it.png'); }
       #sec6-c3{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/hp_hear_it.png'); }
-      #sishood{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/sishood.png'); }
+      .sec7-right-wrap{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/sishood.png'); }
+
+      a{color: inherit;}
     </style>
         
           <!-- section 1 -->
@@ -45,7 +47,7 @@
                 <div class="left-wrap">
                   <h1 class="title" id="sec1-title">
                     The Hair care <br />
-                    <span>Ritual</span> <br />
+                    <a href="#" class="a">Ritual</a> <br />
                     that changed <br />
                     Dr. Shweta's life
                   </h1>
@@ -67,7 +69,7 @@
                     presents its own challenges; we encourage you to embrace this
                     Individuality and leave those challenges to us. We got your
                     back, but first, <br />
-                    <span> let's identify your hair type. </span>
+                    <a href="#" class="a"> let's identify your hair type.</a> 
                   </p>
                 </div>
                 <div class="sec2-cards">
@@ -91,96 +93,34 @@
             <div class="container">
               <div class="sec3-heading">
                 <h1 class="title">Shop by Best Sellers</h1>
-                <p>
+                <p class="description">
                   Everyone has favorites; the Sisterhood has theirs too. They want
                   to help you make the right choices based on what they found best
                   for their hair texture. So experience our best sellers and
-                  create your very own <span> Ritual.</span>
+                  create your very own <a href="#" class="a">Ritual.</a>
                 </p>
               </div>
               <div class="products-card">
                 <div class="inner-wrap">
                   <div class="product">
-                    <div class="product-img img-wrap" id="sec3-product1">
-                      <!-- <img src="images/home page/product01.png" alt="" /> -->
-                      <div class="product-details">
-                        <div class="line1">
-                          <h1>Fluidique Conditioner</h1>
-                          <div class="rating">
-                            <i class="ri-star-fill"></i>
-                            <i class="ri-star-fill"></i>
-                            <i class="ri-star-fill"></i>
-                            <i class="ri-star-fill"></i>
-                            <i class="ri-star-line"></i>
-                          </div>
-                        </div>
-                        <h2>For Straight Hairs</h2>
-                        <h3>500 ₹</h3>
-                        <div class="buttons">
-                          <button class="btn" id="btn1">
-                            <a href="#">Buy now</a>
-                          </button>
-                          <button class="btn" id="btn2">
-                            <a href="#">Add to cart</a>
-                          </button>
-                        </div>
-                      </div>
+                    <div class="product-up">
+                      <div class="product1-img"></div>
                     </div>
+                  <div class="product-down">
+                    
+                  </div>
                   </div>
                   <div class="product">
-                    <div class="product-img img-wrap" id="sec3-product2">
-                      <!-- <img src="images/home page/product02.png" alt="" /> -->
-                      <div class="product-details">
-                        <div class="line1">
-                          <h1>Fluidique Conditioner</h1>
-                          <div class="rating">
-                            <i class="ri-star-fill"></i>
-                            <i class="ri-star-fill"></i>
-                            <i class="ri-star-fill"></i>
-                            <i class="ri-star-fill"></i>
-                            <i class="ri-star-line"></i>
-                          </div>
-                        </div>
-                        <h2>For Straight Hairs</h2>
-                        <h3>500 ₹</h3>
-                        <div class="buttons">
-                          <button class="btn" id="btn1">
-                            <a href="#">Buy now</a>
-                          </button>
-                          <button class="btn" id="btn2">
-                            <a href="#">Add to cart</a>
-                          </button>
-                        </div>
-                      </div>
+                    <div class="product-up">
+                      <div class="product2-img"></div>
                     </div>
+
                   </div>
                   <div class="product">
-                    <div class="product-img img-wrap" id="sec3-product3">
-                      <!-- <img src="images/home page/product03.png" alt="" />
-                    -->
-                      <div class="product-details">
-                        <div class="line1">
-                          <h1>Fluidique Conditioner</h1>
-                          <div class="rating">
-                            <i class="ri-star-fill"></i>
-                            <i class="ri-star-fill"></i>
-                            <i class="ri-star-fill"></i>
-                            <i class="ri-star-fill"></i>
-                            <i class="ri-star-line"></i>
-                          </div>
-                        </div>
-                        <h2>For Straight Hairs</h2>
-                        <h3>500 ₹</h3>
-                        <div class="buttons">
-                          <button class="btn" id="btn1">
-                            <a href="#">Buy now</a>
-                          </button>
-                          <button class="btn" id="btn2">
-                            <a href="#">Add to cart</a>
-                          </button>
-                        </div>
-                      </div>
+                    <div class="product-up">
+                      <div class="product3-img"></div>
                     </div>
+
                   </div>
                 </div>
               </div>
@@ -202,12 +142,8 @@
                     <a href="#">Know More</a>
                   </button>
                 </div>
-                <div class="right-wrap">
-                  <div class="inner-wrap" id="sec4-right-inner-wrap">
-                    <div class="img-wrap" id="beauty_p">
-                      <!-- <img src="images/home page/sec4.png" alt="" /> -->
-                    </div>
-                  </div>
+                <div class="sec4-right-wrap">
+                  
                 </div>
               </div>
             </div>
@@ -247,8 +183,7 @@
                     <div class="card-down">
                       <h1 class="card-title">Blog title</h1>
                       <p class="para" id="card-para">
-                        The Sisterhood wants to help you embrace your natural
-                        texture….
+                        The Sisterhood wants to help you embrace your br natural texture….
                       </p>
                     </div>
                   </div>
@@ -280,9 +215,10 @@
                 <h1 class="title" id="sec6-title">Hear it from the Sisterhood</h1>
                 <div class="sec6-cards">
                   <div class="card">
-                    <div class="img-wrap" id="sec6-c1">
-                      <!-- <img src="images/home page/sec6.png" alt="" /> -->
+                   <div class="card-up">
+                   <div class="img-wrap" id="sec6-c1">
                     </div>
+                   </div>
                   </div>
                   <div class="card">
                     <div class="img-wrap" id="sec6-c2">
@@ -319,9 +255,6 @@
                   <button class="btn" id="sec4-btn">Submit</button>
                 </div>
                 <div class="sec7-right-wrap">
-                  <div class="img-wrap" id="sishood">
-                    <!-- <img src="images/ritual/sisterhood'.png" alt="" /> -->
-                  </div>
                 </div>
               </div>
             </div>
