@@ -37,6 +37,227 @@
 		?>
 
 		</style>
+     <style id="base-inline-css" type="text/css">
+      a,
+      article,
+      aside,
+      audio,
+      b,
+      blockquote,
+      body,
+      canvas,
+      caption,
+      center,
+      dd,
+      details,
+      div,
+      dl,
+      dt,
+      em,
+      embed,
+      fieldset,
+      figcaption,
+      figure,
+      footer,
+      form,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      header,
+      hgroup,
+      html,
+      i,
+      iframe,
+      img,
+      label,
+      legend,
+      li,
+      mark,
+      menu,
+      nav,
+      object,
+      ol,
+      p,
+      pre,
+      section,
+      small,
+      span,
+      strike,
+      strong,
+      sub,
+      summary,
+      sup,
+      table,
+      tbody,
+      td,
+      tfoot,
+      th,
+      thead,
+      time,
+      tr,
+      tt,
+      u,
+      ul,
+      video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font-weight: 400;
+        vertical-align: baseline;
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        -webkit-tap-highlight-color: transparent;
+      }
+      :after,
+      :before {
+        box-sizing: border-box;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+        outline: 0;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      :focus {
+        outline: 0;
+        box-shadow: none;
+      }
+      a:hover {
+        cursor: pointer;
+      }
+      button,
+      input,
+      textarea {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        border-radius: 0;
+        line-height: normal;
+        outline: 0;
+        box-shadow: none;
+        border: none;
+        font-family: inherit;
+        font-weight: inherit;
+      }
+      button {
+        display: inline-block;
+        cursor: pointer;
+        border: none;
+      }
+      textarea {
+        overflow: auto;
+        vertical-align: top;
+        resize: vertical;
+      }
+      input[type="submit"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+      }
+      a:focus,
+      a:hover,
+      button:focus,
+      button:hover,
+      textarea:focus {
+        outline: 0;
+        cursor: pointer;
+      }
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      ul {
+        list-style: none;
+      }
+      li a {
+        display: block;
+      }
+      .d-flex {
+        display: flex;
+      }
+      .flex-wrap {
+        flex-wrap: wrap;
+      }
+      .align-center {
+        align-items: center;
+      }
+      .align-end {
+        align-items: flex-end;
+      }
+      .align-start {
+        align-items: flex-start;
+      }
+      .justify-center {
+        justify-content: center;
+      }
+      .justify-content-between {
+        justify-content: space-between;
+      }
+      .justify-content-around {
+        justify-content: space-around;
+      }
+      .justify-content-end {
+        justify-content: flex-end;
+      }
+      .flex-column {
+        flex-direction: column;
+      }
+      .flex-row-reverse {
+        flex-direction: row-reverse;
+      }
+      .flex-grow {
+        flex-grow: 1;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-right {
+        text-align: right;
+      }
+      html {
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+        height: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        font-family: PlusJakartaSans, -apple-system, BlinkMacSystemFont,
+          Segoe UI, segoe ui, SegoeUI, Segoe, Helvetica, Arial, sans-serif;
+        color: #000;
+        font-weight: 400;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        height: 100%;
+        background: #fff;
+      }
+
+      .container {
+        max-width: 1024px;
+        margin: 0 auto;
+        position: relative;
+      }
+      .mob-only {
+        display: none;
+      }
+    </style>
     </head>
 
 	
