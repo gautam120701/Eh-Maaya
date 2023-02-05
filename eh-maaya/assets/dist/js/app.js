@@ -1,1 +1,0 @@
-function changeMenu(e){currentToggle(e),currentToggle(document.querySelector(".mob-menu-list"))}function currentToggle(e){e.classList.toggle("active")}function toggleMenu(){document.querySelector("#mobileMenu").classList.toggle("active"),document.querySelector("#mobileMenuList").classList.toggle("active")}
