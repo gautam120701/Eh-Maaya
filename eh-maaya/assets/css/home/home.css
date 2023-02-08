@@ -1,15 +1,10 @@
- 
   /* common classes */
-  .container{
-    max-width: 1024px;
-     position: relative;
-    margin: 0 auto;
-}
+  .mob-only{display: none;}
+
 .img-wrap{
   max-width: 100%;
   height: auto;
 }
-
 .title{
   font-size: 4em;
   line-height: 1.25;
@@ -25,13 +20,10 @@ height: 35px;
 font-family: "Jost";
 border-radius: 50px;
 }
-.inner-wrap{
-  /* min-height: auto; */
-}
 .description{
   text-align: center;
 }
-.a{
+.anchor{
   font-weight: bold;    
   text-decoration: underline;
 }
@@ -44,7 +36,7 @@ border-radius: 50px;
   justify-content: space-between;
  padding-top: 70px;
 }
-.sec1-inner-wrap .left-wrap{
+.sec1-left-wrap{
   /* background-color: red; */
   width: 35%;
   padding-top: 80px;
@@ -76,7 +68,6 @@ border-radius: 50px;
   height: 450px;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0 -120px 0 0;
 }
 /* sec2............................................................................ */
 .sec2-heading{
@@ -101,9 +92,6 @@ border-radius: 50px;
 }
 .section2 .sec2-cards .inner-wrap{
   display: flex;
-}
-#card1{
-  background-color: #EFE1D8;
 }
 #sec2-card1{
   background-color: #EFE1D8;
@@ -147,6 +135,8 @@ border-radius: 50px;
 }
 .products-card .inner-wrap{
   display: flex;
+  flex-shrink: 3;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .product{
@@ -239,9 +229,7 @@ background-color: #ffff;
 #sec6-title{
   font-size: 4em;
 }
-.inner-wrap{
-  min-height: auto;
-}
+
 .sec6-cards{
 margin-top: 75px;
 /* padding: 0 200px; */
@@ -258,9 +246,7 @@ background-repeat: no-repeat;
   height: 376px;
 }
 /* section7...................................................... */
-.section7{
-  /* background-color: red; */
-}
+
 #sec7-container{
 margin-top: 100px;
 }
@@ -269,12 +255,15 @@ display: flex;
 justify-content: space-between;
 }
 .sec7-left-wrap{
-padding-top: 136.5px;
-/* padding-left: 100px; */
+padding-top: 50px;
 width: 35%;
 }
+#sec7-title{
+  font-size: 6em;
+  text-align: left;
+}
 #sec7-para{
-margin-top: 24px;
+margin-top: 20px;
 }
 .input{
 width: 260px;
@@ -291,15 +280,242 @@ background-color: #0F0F32;
 color: #f3f3f3;
 margin-top: 25px;
 }
-#sishood{
-  width: 985px;
-  height: 703px;
-}
 .sec7-right-wrap{
   width: 65%;
   max-width: 985px;
   height: 440px;
   background-size: contain;
   background-repeat: no-repeat;
-margin-left: 30px;
+/* margin-left: 30px; */
+}
+/* media query for mobile view */
+@media screen and (max-width: 599px) {
+   .container{ padding-right:0; }
+.mob-only{
+  display: block;
+}
+  .btn{
+    width: 150px;
+    height: 50px;
+  }
+  .description{
+    font-size: 3em;
+    line-height: 1.5;
+  }
+  .title{
+    font-size: 5em;
+  }
+  /* sec1.......................................... */
+  #sec1-btn{
+    font-size: 3em;
+  }
+  .sec1-inner-wrap{
+    flex-direction: column;
+  }
+ .sec1-left-wrap{
+  width: 100%;
+ }
+ #sec1-title{
+  font-size: 6em;
+ }
+  .sec1-right-wrap{
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* sec2............................... */
+  .sec2-heading{
+    padding-top: 40px;
+  }
+  #sec2-title{
+    font-size: 5em;
+  }
+  .sec2-cards .inner-wrap{
+    flex-direction: column;
+    align-items: center;
+  }
+  #sec2-card1{
+    width: 100%;
+    max-width: 430px;
+    height: 430px;
+  }
+  #sec2-card2, #sec2-card3{
+    display: none;
+  }
+  /* sec3.................................... */
+.sec3-heading .title{
+  text-align: left;
+}
+.sec3-heading p{
+  text-align: left;
+}
+#sec3-des{
+  font-size: 3em;
+  line-height: 1.5;
+  text-align: left;
+}
+.products-card .inner-wrap{
+  flex-shrink: 3;
+  /* flex-wrap: wrap; */
+}
+.product{
+  margin-top: 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+.product1-img, .product2-img, .product3-img{
+  margin: 0 auto;
+  height: 500px;
+}
+/* sec4.................................... */
+.section4{
+  margin-top: 50px;
+}
+#sec4-inner-wrap{
+  flex-direction: column;
+}
+#sec4-inner-wrap .left-wrap{
+  width: 100%;
+}
+#sec4-title{
+  font-size: 4em;
+}
+#sec4-inner-wrap .left-wrap p{
+  font-size: 3em;
+  line-height: 1.5;
+}
+#sec4-btn{
+  width: 200px;
+  height: 60px;
+  font-size: 3em;
+}
+.sec4-right-wrap{
+  width: 100%;
+  margin: 0 auto;
+  height: 300px;
+}
+/* sec5........................... */
+#sec5-title{
+  font-size: 5em;
+  text-align: left;
+}
+.card-up{
+  height: 200px;
+}
+
+/* sec7............................... */
+#sec7-container{
+  margin-top: 50px;
+}
+#sec7-inner-wrap{
+  flex-direction: column;
+}
+.sec7-left-wrap{
+  width: 100%;
+}
+#sec7-title{
+  font-size: 5em;
+}
+#sec7-para{
+  font-size: 3em
+}
+.input{
+  width: 100%;
+  font-size: 2em;
+  background-color: #ffff;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+}
+.sec7-right-wrap{
+  width: 100%;
+  height: 370px;
+}
+}
+
+/* media query for tab view */
+@media screen and (min-width: 599px) and (max-width: 799px) {
+  .mob-only{
+    display: block;
+  }
+  .btn{
+    width: 170px;
+    height: 65px;
+    font-size: 2.5em;
+  }
+  .section-1 .container{ padding:0; }
+  .sec1-inner-wrap{
+    flex-direction: column;
+  }
+  .sec1-left-wrap{
+    width: 100%;
+  }
+  #sec1-title{
+    font-size: 8em;
+  }
+  .sec1-right-wrap{
+    width: 100%;
+    height: 570px;
+    margin: 0 auto;
+  }
+  /* sec2......................... */
+  #sec2-title{
+    font-size: 6em;
+  }
+  .description{
+    font-size: 2.5em;
+    line-height: 1.5;
+  }
+#sec2-card1, #sec2-card2, #sec2-card3{
+  height: 250px;
+}
+.sec3-heading .title{
+  font-size: 6em;
+}
+#sec3-des{
+  font-size: 2.5em;
+  line-height: 1.5;
+}
+#sec4-inner-wrap{
+  flex-direction: column;
+}
+#sec4-inner-wrap .left-wrap{
+  width: 100%;
+}
+#sec4-title{
+  font-size: 6em;
+}
+#sec4-des{
+  font-size: 2.5em;
+  line-height: 1.5;
+}
+.sec4-right-wrap{
+  width: 100%;
+}
+#sec5-title{
+  font-size: 6em;
+}
+#sec6-title{
+  font-size: 5em;
+}
+#sec7-inner-wrap{
+    flex-direction: column;
+}
+.sec7-left-wrap{
+    width: 100%;
+}
+#sec7-title{
+  font-size: 7em;
+}
+#sec7-para{
+  font-size: 3em;
+}
+.input{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 2.5em;
+  height: 45px;
+  margin-top: 20px;
+}
+.sec7-right-wrap{
+    width: 100%;
+}
 }
