@@ -21,10 +21,10 @@ $__duplicate[] = $content;
   while(have_posts()) : the_post(); 
 ?>
   <style>
-   #sec1-img{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/story_pic1.png'); }
-   #sec2-img{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/story_pic2.png'); }
-   #sec5-img{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/story_pic3.png'); }
-   #sec6-img{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/story_pic4.png'); }
+   .sec1-right-wrap{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/story_pic1.png'); }
+   .sec2-img{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/story_pic2.png'); }
+   .sec5-right-wrap{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/story_pic3.png'); }
+   .sec6-right-wrap{ background-image: url('<?php echo THEME_ROOT ?>/assets/images/story_pic4.png'); }
   </style>
            <!-- section1 -->
            <div class="section1">
@@ -37,17 +37,12 @@ $__duplicate[] = $content;
                   </h1>
                   <p class="para" id="sec1-para">
                     Why should hair care be so complicated and time-consuming
-                    when we <br />
-                    have so much on our to-do lists? So, When you get that time
-                    off, The <br />
-                    last thing you want to worry about is unmanageable hair,
+                    when we have so much on our to-do lists? So, When you get that time
+                    off, The  last thing you want to worry about is unmanageable hair,
                     correct?
                   </p>
                 </div>
                 <div class="sec1-right-wrap">
-                  <div class="img-wrap" id="sec1-img">
-                    <!-- <img src="images/story/sec1.png" alt="" /> -->
-                  </div>
                 </div>
               </div>
             </div>
@@ -58,13 +53,9 @@ $__duplicate[] = $content;
               <div class="inner-wrap" id="sec2-inner-wrap">
                 <div class="sec2-heading">
                   <h1 class="title" id="sec2-title">Who we are..?</h1>
-                  <p class="para" id="sec2-para">We are trailblazers and changemakers. What do we mean by that? <br> <br> We aim to shift the compass when it comes to hair care. Simple yet effective, non-complicated, and non-time consuming. We managed a crucial balance <br> between mild ingredients and plant-based powerhouse actives specific to your hair’s texture. <br> <br> Our mission is to help you achieve your hair goals. Whether Straight, Wavy, or Curly, we Nourish You Individuality!</p>
+                  <p class="para" id="sec2-para">We are trailblazers and changemakers. What do we mean by that? <br> <br> We aim to shift the compass when it comes to hair care. Simple yet effective, non-complicated, and non-time consuming. We managed a crucial balance  between mild ingredients and plant-based powerhouse actives specific to your hair’s texture. <br> <br> Our mission is to help you achieve your hair goals. Whether Straight, Wavy, or Curly, we Nourish You Individuality!</p>
                 </div>
-                <div class="sec2-image">
-                    <div class="img-wrap" id="sec2-img">
-                        <!-- <img src="images/story/sec2.png" alt=""> -->
-                    </div>
-                </div>
+                <div class="sec2-img">  </div>
               </div>
             </div>
           </div>
@@ -76,7 +67,7 @@ $__duplicate[] = $content;
                         Our Promises Come True.
                     </h1>
                     <p class="para" id="sec3-para">
-                        Our focus is to understand your natural hair texture in the context of your modern-day lifestyle and hair care goals. Our squeaky clean, well- <br> balanced formulations will ensure you achieve both confidently.
+                        Our focus is to understand your natural hair texture in the context of your modern-day lifestyle and hair care goals. Our squeaky clean, well- balanced formulations will ensure you achieve both confidently.
                     </p>
                 </div>
             </div>
@@ -86,7 +77,8 @@ $__duplicate[] = $content;
             <div class="container" id="sec4-container">
                 <div class="inner-wrap" id="sec4-inner-wrap">
                     <h1 class="title" id="sec4-title">The Eh-Maaya Story</h1>
-                    <p class="para" id="sec4-para">It all started when Dr.Shweta got tired of running to the parlor before every social event. “I have curly hair but kept straightening it. I started fifteen years ago, and it was starting to become frizzy and looked lifeless”. I have a busy routine, and managing my hair was starting to become a big part of it. After trying all the latest treatments on the market and getting no results, she began to wonder. “How do you change the hair care game?” And Eh-Maaya was born.</p>
+                    <p class="para" id="sec4-para">It all started when Dr.Shweta got tired of running to the parlor before every social event. “I have curly hair but kept straightening it.  I started fifteen years ago, and it was starting to become frizzy and looked lifeless”. I have a busy routine, and managing my hair was starting to  become a big part of it. After trying all the latest treatments on the market and getting no results, she began to wonder. “How do you change  the hair care game?” And Eh-Maaya was born.</p>
+                    <div class="sec4-video">video</div>
                 </div>
             </div>
           </div>
@@ -97,14 +89,12 @@ $__duplicate[] = $content;
                     <div class="sec5-left-wrap">
                         <h1 class="title" id="sec5-title">The Secrete Sauce !</h1>
                         <p class="para" id="sec5-para">
-                            “We have been through some serious thick  and thin, burned the midnight oil, and spent countless hours on Zoom/G Meet to get Eh-Maaya to this stage.” 
+                            “We have been through some serious thick <br> and thin, burned the midnight oil, and spent <br> countless hours on Zoom/G Meet to get  <br>
+                            <a href="#" class="anchor">Eh-Maaya</a> to this stage.” 
                         </p>
                         <button class="btn" id="sec5-btn"><a href="#">See Ingredients</a></button>
                     </div>
                     <div class="sec5-right-wrap">
-                        <div class="img-wrap" id="sec5-img">
-                            <!-- <img src="images/story/sec5.png" alt=""> -->
-                        </div>
                     </div>
                 </div>
             </div>
@@ -116,14 +106,11 @@ $__duplicate[] = $content;
                 <div class="sec6-left-wrap">
                     <h1 class="title" id="sec6-title">And that’s how <br> Eh-Maaya was Born.</h1>
                     <p class="para" id="sec6-para">
-                        Get a Ritual bundle worth Rs 3470 only for Rs 1599!
+                        Get a Ritual bundle worth <s>Rs 3470</s> only for Rs 1599!
                     </p>
                     <button class="btn" id="sec6-btn">Contact Us</button>
                 </div>
                 <div class="sec6-right-wrap">
-                    <div class="img-wrap" id="sec6-img">
-                        <!-- <img src="images/story/sec6_2x.png" alt=""> -->
-                    </div>
                 </div>
             </div>
         </div>
@@ -138,3 +125,4 @@ $__duplicate[] = $content;
     ?>
 
 <?php get_footer(); ?>
+oiuyg
