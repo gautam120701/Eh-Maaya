@@ -14,8 +14,12 @@ header{
 .header-center{
 margin-left: 100px;
 }
+.header-right{
+  margin-right: 200px;
+  background-color: red;
+}
 .desktop-menu-container{
-  width: 500px;
+  /* width: 500px; */
 }
 .menu{
   font-size: 1.5em;
@@ -28,6 +32,8 @@ margin-left: 100px;
 }
 
 .icons{
+  margin-right: 100px;
+  /* background-color: red; */
   display: flex;
   justify-content: space-between;
 }
