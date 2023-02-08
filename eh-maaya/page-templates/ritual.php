@@ -42,6 +42,7 @@ $__duplicate[] = $content;
                     mother of two daughters, and our founder. <br><br>
                     She experimented on her hair for 15 years with treatments  and products, but she was still unhappy with her hair. The results were short-lived and harmed hair quality. Her hair was her uniqueness, her personality, and she wanted it back the way it was.
                   </p>
+                  <p class="mobile_view_para">We went beyond making better products. We started from scratch, by reimagining what honest, holistic hair care could look like. And our ingredients are where all the magic begins! From identifying the most potent botanicals, herbs, and fruits to ensuring their efficacy in every product, read on to know Eh-Maaya’s Ingredients Story.</p>
                 </div>
                 <div class="sec1-right-wrap">
                 </div>
@@ -89,85 +90,46 @@ $__duplicate[] = $content;
                   Frequently asked questions
                 </h1>
                 <div class="faq">
-                  <div class="text">
-                    <h1>Can I use both the Midnight Potion and the Clear Clay?</h1>
-                  </div>
-                  <div class="add">
-                    <h1>+</h1>
-                  </div>
+                  <span>Can I use both the Midnight Potion and the Clear Clay?</span>
+                  <span class="add">+</span>
                 </div>
                 <div class="faq">
-                  <div class="text">
-                    <h1>Is it safe for colored hair?</h1>
-                  </div>
-                  <div class="add">
-                    <h1>+</h1>
-                  </div>
+                  <span>Is it safe for colored hair?</span>
+                  <span class="add">+</span>
                 </div>
                 <div class="faq">
-                  <div class="text">
-                    <h1>How long till I see the results?</h1>
-                  </div>
-                  <div class="add">
-                    <h1>+</h1>
-                  </div>
+                  <span>How long till I see the results?</span>
+                  <span class="add">+</span>
                 </div>
                 <div class="faq">
-                  <div class="text">
-                    <h1>How often in the week do I need to follow the Ritual?</h1>
-                  </div>
-                  <div class="add">
-                    <h1>+</h1>
-                  </div>
+                  <span>How often in the week do I need to follow the Ritual?</span>
+                  <span class="add">+</span>
                 </div>
                 <div class="faq">
-                  <div class="text">
-                    <h1>Natural and Botanical products don’t clean well as they foam less; is it true?</h1>
-                  </div>
-                  <div class="add">
-                    <h1>+</h1>
-                  </div>
+                  <span>Natural and Botanical products don’t clean well as they foam less; is it true?</span>
+                  <span class="add">+</span>
                 </div>
                 <div class="faq">
-                  <div class="text">
-                    <h1>What’s so special about the Eh-Maaya hair ritual?</h1>
-                  </div>
-                  <div class="add">
-                    <h1>+</h1>
-                  </div>
+                  <span>What’s so special about the Eh-Maaya hair ritual?</span>
+                  <span class="add">+</span>
                 </div>
                 <div class="faq">
-                  <div class="text">
-                    <h1>How does the Eh-Maaya hair routine work?</h1>
-                  </div>
-                  <div class="add">
-                    <h1>+</h1>
-                  </div>
+                  <span>How does the Eh-Maaya hair routine work?</span>
+                  <span class="add">+</span>
                 </div>
                 <div class="faq">
-                  <div class="text">
-                    <h1>What’s the benefit of the Eh-Maaya routine?</h1>
-                  </div>
-                  <div class="add">
-                    <h1>+</h1>
-                  </div>
+                  <span>What’s the benefit of the Eh-Maaya routine?</span>
+                  <span class="add">+</span>
                 </div>
                 <div class="faq">
-                  <div class="text">
-                    <h1>What are the ingredients used in the Eh-Maaya Ritual Bundle?</h1>
-                  </div>
-                  <div class="add">
-                    <h1>+</h1>
-                  </div>
+                  <span>What are the ingredients used in the Eh-Maaya Ritual Bundle?</span>
+                  <span class="add">+</span>
                 </div>
                 <div class="faq">
-                  <div class="text">
-                    <h1>Does each hair type have a separate routine?</h1>
-                  </div>
-                  <div class="add">
-                    <h1>+</h1>
-                  </div>
+                  <span>Does each hair type have a separate routine?</span>
+                  <span class="add">+</span>
                 </div>
+              
               
               </div>
             </div>
@@ -180,7 +142,7 @@ $__duplicate[] = $content;
                         <h1 class="title" id="sec4-title">Join the <br>  Sisterhood</h1>
                         <p class="para" id="sec4-para">Get tips, tricks, and a sneak peek into upcoming products!</p>
                         <input class="input" type="text" placeholder="Email or phone number"> <br>
-                        <button class="btn" id="sec4-btn">Submit</button>
+                        <input type="submit" class="btn" id="sec4-btn" value="Submit"></input>
                     </div>
                     <div class="sec4-right-wrap">
                     </div>
