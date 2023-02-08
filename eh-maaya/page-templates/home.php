@@ -1,4 +1,4 @@
-   <?php
+  <?php
   /*** 
     Template Name: Home
     Template Post Type: post, page
@@ -44,10 +44,10 @@
           <div class="section1">
             <div class="container">
               <div class="sec1-inner-wrap">
-                <div class="left-wrap">
+                <div class="sec1-left-wrap">
                   <h1 class="title" id="sec1-title">
                     The Hair care <br />
-                    <a href="#" class="a">Ritual</a> <br />
+                    <a href="#" class="anchor">Ritual</a> <br />
                     that changed <br />
                     Dr. Shweta's life
                   </h1>
@@ -69,20 +69,14 @@
                     presents its own challenges; we encourage you to embrace this
                     Individuality and leave those challenges to us. We got your
                     back, but first, <br />
-                    <a href="#" class="a"> let's identify your hair type.</a> 
+                    <a href="#" class="anchor"> let's identify your hair type.</a> 
                   </p>
                 </div>
                 <div class="sec2-cards">
                   <div class="inner-wrap">
-                    <div class="sec2-card img-wrap" id="sec2-card1">
-                      <!-- <img src="images/home page/straight.png" alt="" /> -->
-                    </div>
-                    <div class="sec2-card img-wrap" id="sec2-card2">
-                      <!-- <img src="images/home page/wavy.png" alt="" /> -->
-                    </div>
-                    <div class="sec2-card img-wrap" id="sec2-card3">
-                      <!-- <img src="images/home page/curly.png" alt="" /> -->
-                    </div>
+                    <div class="sec2-card img-wrap" id="sec2-card1"> </div>
+                    <div class="sec2-card img-wrap" id="sec2-card2"> </div>
+                    <div class="sec2-card img-wrap" id="sec2-card3"></div>
                   </div>
                 </div>
               </div>
@@ -93,11 +87,11 @@
             <div class="container">
               <div class="sec3-heading">
                 <h1 class="title">Shop by Best Sellers</h1>
-                <p class="description">
+                <p class="description" id="sec3-des">
                   Everyone has favorites; the Sisterhood has theirs too. They want
                   to help you make the right choices based on what they found best
                   for their hair texture. So experience our best sellers and
-                  create your very own <a href="#" class="a">Ritual.</a>
+                  create your very own <a href="#" class="anchor">Ritual.</a>
                 </p>
               </div>
               <div class="products-card">
@@ -107,7 +101,6 @@
                       <div class="product1-img"></div>
                     </div>
                   <div class="product-down">
-                    
                   </div>
                   </div>
                   <div class="product">
@@ -122,6 +115,11 @@
                     </div>
 
                   </div>
+                  <div class="product mob-only">
+                    <div class="product-up">
+                      <div class="product3-img"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -132,7 +130,7 @@
               <div class="inner-wrap" id="sec4-inner-wrap">
                 <div class="left-wrap">
                   <h1 class="title" id="sec4-title">Our Beauty Philosophy</h1>
-                  <p class="description">
+                  <p class="description" id="sec4-des">
                     Your natural hair texture is your individuality; embrace it.
                     So put away that straightening iron, postpone that parlor
                     visit, and embrace the change. Explore how we go the distance
@@ -239,13 +237,15 @@
             <div class="container" id="sec7-container">
               <div class="inner-wrap" id="sec7-inner-wrap">
                 <div class="sec7-left-wrap">
-                  <h1 class="title" id="sec4-title">
-                    Join the <br />
+                  <h1 class="title" id="sec7-title">
+                    Join the 
                     Sisterhood
                   </h1>
-                  <p class="para" id="sec4-para">
+                  <p class="para" id="sec7-para">
                     Get tips, tricks, and a sneak peek into upcoming products!
                   </p>
+                  <!-- <label> Email </label> -->
+                  <input class="input" id="" name="Email" placeholder="Email" minlength="" maxlength="" required="true">
                   <input
                     class="input"
                     type="text"
