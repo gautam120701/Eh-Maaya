@@ -1,12 +1,17 @@
   /* common classes */
   .mob-only{display: none;}
 
+  .container{
+    /* max-width: 1920px; */
+    position: relative;
+    margin: 0 auto;
+}
 .img-wrap{
   max-width: 100%;
   height: auto;
 }
 .title{
-  font-size: 4em;
+  font-size: 5em;
   line-height: 1.25;
   font-weight: bold;
   color: #0F0F32;
@@ -15,8 +20,8 @@
   text-align: center;
 }
 .btn{
-width: 130px;
-height: 35px;
+width: 177px;
+height: 55px;
 font-family: "Jost";
 border-radius: 50px;
 }
@@ -34,40 +39,47 @@ border-radius: 50px;
 .sec1-inner-wrap{
   display: flex;
   justify-content: space-between;
- padding-top: 70px;
+padding-left: 100px;
 }
 .sec1-left-wrap{
   /* background-color: red; */
-  width: 35%;
-  padding-top: 80px;
+  width: 39%;
+  padding-top: 220px;
   /* padding-left: 100px; */
 }
 .sec1-inner-wrap .left-wrap .title span{
       font-weight: bold;    
       text-decoration: underline;
 }
-.sec1-inner-wrap .right-wrap .img-wrap{
+/* .sec1-inner-wrap .right-wrap .img-wrap{
   padding-top: 200px;
-}
+} */
 #sec1-title{
-  font-size: 4em;
+  font-size: 8em;
   line-height: 1.25;
   text-align: left;
 }
 #sec1-btn{
   font-size: 2em;
-  line-height: 1.25;
   font-weight: normal;
   color: #F3F3F3;
   background-color: #0F0F32;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 .sec1-right-wrap{
-  width: 65%;
-  max-width: 1170px;
-  height: 450px;
+  margin-top: 90px;
+width: 100%;
+max-width: 1111px;
+min-height: 780px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 1850px) {
+    .sec1-right-wrap{
+      margin-top: 50px;
+      max-width: 900px;
+      /* min-height: 700px; */
+    }
 }
 /* sec2............................................................................ */
 .sec2-heading{
@@ -79,12 +91,12 @@ border-radius: 50px;
   line-height: 1.25;
 }
 .description{
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 1.25;
   margin-top: 25px;
 }
 .section2 .container{
-  max-width: 1024px;
+  /* max-width: 1024px; */
  margin: 0 auto;
 }
 .sec2-cards{
@@ -103,9 +115,9 @@ border-radius: 50px;
   background-color: #C6D9E5;
 }
 #sec2-card1, #sec2-card2, #sec2-card3{
-  width: 33.33%;
+  width: 100%;
   max-width: 640px;
-  height: 330px;
+  height: 640px;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -121,7 +133,10 @@ border-radius: 50px;
   padding-top: 100px;
   /* background-color: red; */
 }
-.section3 .container .sec3-heading p{
+#sec3-title{
+  font-size: 3em;
+}
+.section3 .container .sec3-heading p{ 
   font-size: 2em;
   line-height: 1.25;
   font-weight: normal;
@@ -142,6 +157,7 @@ border-radius: 50px;
 .product{
   width: 30%;
   max-width: 400px;
+  height: 500px;
 }
 .product-up{
   background-color: #f3f3f3;
@@ -156,16 +172,27 @@ border-radius: 50px;
   background-color: #f3f3f3;
   margin-top: 90px;
 }
+.section4 .container{
+  padding-left: 100px;
+  padding-right: 21px;
+}
 #sec4-inner-wrap{
-  padding-top: 80px;
+  /* padding-top: 80px; */
   display: flex;
+  justify-content: space-between;
 }
 #sec4-title{
-  font-size: 3em;
+  font-size: 8em;
+  line-height: 1.25;
  text-align: left;
 }
+#sec4-left-wrap .description{
+  /* color: red; */
+  font-size: 2.4em;
+}
 #sec4-inner-wrap .left-wrap{
-  width: 35%;
+  width: 100%;
+  padding-top: 83px;
 }
 #sec4-inner-wrap .left-wrap p{
   line-height: 1.25;
@@ -173,17 +200,19 @@ border-radius: 50px;
   text-align: left;
 }
 #sec4-btn{
+  font-size: 2em;
   background-color: #0F0F32;
   color: #f3f3f3;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 .sec4-right-wrap{
-  width: 65%;
+  width: 100%;
   max-width: 1071px;
-  height: 376px;
+  height: 530px;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0 -150px 0 0;
+margin-top: 100px;
+
 }
 
 /* section5........................................................ */
@@ -195,7 +224,7 @@ margin-top: 64px;
 }
 .sec5-cards{
   margin-top: 63px;
-  /* padding: 0 200px; */
+  padding: 0 200px;
   display: flex;
   justify-content: space-between;
 }
@@ -206,10 +235,11 @@ margin-top: 64px;
   margin-top: 20px;
 }
 #card-para{
+  font-size: 1.6em;
   margin-top: 10px;
 }
 .sec5-cards .cards{
-  width: 30%;
+  width: 100%;
   max-width: 400px;
 }
 
@@ -224,6 +254,7 @@ background-color: #ffff;
 }
 #sec6-container{
   margin-top: 93px;
+  padding: 0 200px;
   /* background-color: red; */
 }
 #sec6-title{
@@ -231,7 +262,7 @@ background-color: #ffff;
 }
 
 .sec6-cards{
-margin-top: 75px;
+margin-top: 96px;
 /* padding: 0 200px; */
 display: flex;
 justify-content: space-between;
@@ -248,6 +279,7 @@ background-repeat: no-repeat;
 /* section7...................................................... */
 
 #sec7-container{
+  padding-left: 100px;
 margin-top: 100px;
 }
 #sec7-inner-wrap{
@@ -256,37 +288,40 @@ justify-content: space-between;
 }
 .sec7-left-wrap{
 padding-top: 50px;
-width: 35%;
+padding-top: 211px;
+width: 100%;
 }
 #sec7-title{
-  font-size: 6em;
+  font-size: 8em;
   text-align: left;
 }
 #sec7-para{
-margin-top: 20px;
+margin-top: 24px;
+font-size: 2em;
 }
 .input{
-width: 260px;
-height: 35px;
+  width: 453px;
+  height: 50px;
+  font-size: 1.6em;
 background-color: #f3f3f3;
 border: none;
 border-radius: 25px;
 /* padding-left: 17.5px; */
 padding: 13.5px 17.5px;
-margin-top: 25px;
+margin-top: 47px;
 }
 #sec7-btn{
 background-color: #0F0F32;
 color: #f3f3f3;
-margin-top: 25px;
+margin-top: 64px;
 }
 .sec7-right-wrap{
-  width: 65%;
+  width: 100%;
   max-width: 985px;
-  height: 440px;
+  min-height: 703px;
   background-size: contain;
   background-repeat: no-repeat;
-/* margin-left: 30px; */
+margin-top: 100px;
 }
 /* media query for mobile view */
 @media screen and (max-width: 599px) {
@@ -360,11 +395,12 @@ margin-top: 25px;
 .product{
   margin-top: 15px;
   width: 100%;
+  max-width: 190px;
   margin: 0 auto;
 }
 .product1-img, .product2-img, .product3-img{
   margin: 0 auto;
-  height: 500px;
+  height: 187px;
 }
 /* sec4.................................... */
 .section4{
