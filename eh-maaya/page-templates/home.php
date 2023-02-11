@@ -7,7 +7,8 @@
 
   include_once(THEME_DIR . '/app/Support/EnqueueAssetsInline.php');
   add_action('wp_enqueue_scripts', function(){
-  EnqueueAssetsInline::css( 'home-c', THEME_DIR . '/assets/css/home/home.css' );
+  // EnqueueAssetsInline::css( 'home-c', THEME_DIR . '/assets/css/home/home-criticial.css' ); 
+    EnqueueAssetsInline::css( 'home', THEME_DIR . '/assets/css/home/home.css' );
   }); 
 
     get_header();
@@ -53,7 +54,7 @@
                   </h1>
                   <button class="btn" id="sec1-btn"><a href="#">Shop</a></button>
                 </div>
-                <div class="sec1-right-wrap">
+                <div class="sec1-right-wrap img-wrap">
                 </div>
               </div>
             </div>
@@ -68,7 +69,7 @@
                     Every Hair texture is uniquely gifted. This uniqueness
                     presents its own challenges; we encourage you to embrace this
                     Individuality and leave those challenges to us. We got your
-                    back, but first, <br />
+                    back, but first, <br>
                     <a href="#" class="anchor"> let's identify your hair type.</a> 
                   </p>
                 </div>
@@ -86,7 +87,7 @@
           <div class="section3">
             <div class="container">
               <div class="sec3-heading">
-                <h1 class="title">Shop by Best Sellers</h1>
+                <h1 class="title" id="sec3-title">Shop by Best Sellers</h1>
                 <p class="description" id="sec3-des">
                   Everyone has favorites; the Sisterhood has theirs too. They want
                   to help you make the right choices based on what they found best
@@ -128,11 +129,11 @@
           <div class="section4">
             <div class="container">
               <div class="inner-wrap" id="sec4-inner-wrap">
-                <div class="left-wrap">
+                <div class="left-wrap" id="sec4-left-wrap">
                   <h1 class="title" id="sec4-title">Our Beauty Philosophy</h1>
                   <p class="description" id="sec4-des">
                     Your natural hair texture is your individuality; embrace it.
-                    So put away that straightening iron, postpone that parlor
+                    So put  away that straightening iron, postpone that parlor
                     visit, and embrace the change. Explore how we go the distance
                     to ensure it happens.
                   </p>
@@ -164,7 +165,7 @@
                     <div class="card-down">
                       <h1 class="card-title">Blog title</h1>
                       <p class="para" id="card-para">
-                        The Sisterhood wants to help you embrace your natural
+                        The Sisterhood wants to help you embrace your <br> natural
                         texture….
                       </p>
                     </div>
@@ -181,7 +182,7 @@
                     <div class="card-down">
                       <h1 class="card-title">Blog title</h1>
                       <p class="para" id="card-para">
-                        The Sisterhood wants to help you embrace your br natural texture….
+                        The Sisterhood wants to help you embrace your <br> natural texture….
                       </p>
                     </div>
                   </div>
@@ -197,7 +198,7 @@
                     <div class="card-down">
                       <h1 class="card-title">Blog title</h1>
                       <p class="para" id="card-para">
-                        The Sisterhood wants to help you embrace your natural
+                        The Sisterhood wants to help you embrace your <br> natural
                         texture….
                       </p>
                     </div>
@@ -238,14 +239,13 @@
               <div class="inner-wrap" id="sec7-inner-wrap">
                 <div class="sec7-left-wrap">
                   <h1 class="title" id="sec7-title">
-                    Join the 
+                    Join the <br>
                     Sisterhood
                   </h1>
                   <p class="para" id="sec7-para">
                     Get tips, tricks, and a sneak peek into upcoming products!
                   </p>
                   <!-- <label> Email </label> -->
-                  <input class="input" id="" name="Email" placeholder="Email" minlength="" maxlength="" required="true">
                   <input
                     class="input"
                     type="text"
