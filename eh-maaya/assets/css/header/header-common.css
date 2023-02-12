@@ -1,41 +1,24 @@
-header{
-  position: relative;
-  /* background-color: saddlebrown; */
-}
- .desktop-view{
-  position: relative;
-  /* max-width: 1920px; */
-  padding: 40px 0;
+.desktop-view {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  padding: 40px 104px 40px 100px;
 }
-.header-left a{
-  cursor: pointer;
-}
-#logo svg{
+.header-left a .img-wrap {
   width: 300.07px;
   height: 61.7px;
-  overflow: hidden;
+  background-color: red;
+}
+.header-center .menu-list .menu-headermenu-container ul{
+  display: flex;
+  gap: 52px;
+}
+.header-center .menu-list .menu-list .menu-headermenu-container .menu li{
+  font-size: 2em;
+  color: #0F0F32;
+  font-family: "Jost";
+  font-weight: medium;
 }
 .header-center{
-  margin-left: 216.22px;
+  margin-left: 216px;
 }
-.menu{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.menu li{
-  font-size: 2em;
-  cursor: pointer;
-  margin-left: 40px;
-  position: relative;
-}
-.icons{
-  margin-left: auto;
-  display: flex;
-  gap: 30px;
-}
-
-/* mobile */
