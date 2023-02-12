@@ -13,12 +13,14 @@
   display: flex;
   gap: 52px;
 }
-.header-center .menu-list .menu-list .menu-headermenu-container .menu li{
+.header-center .menu-list .menu-list .menu-headermenu-container .menu li a{
   font-size: 2em;
   color: #0F0F32;
   font-family: "Jost";
   font-weight: medium;
 }
-.header-center{
-  margin-left: 216px;
+.header-right .icons{
+  width: 144px;
+  display: flex;
+  gap: 25px;
 }
