@@ -316,6 +316,7 @@
                 </li>
               </ul>
             </div> -->
+
             <div class="nav-list menu-list">
 						<?php wp_nav_menu(array('theme_location' => 'headermenu')); ?>
 						</div>
@@ -336,6 +337,9 @@
               </svg>
             </div>
           </div>
+        </div>
+        <div class="mobile-view">
+          
         </div>
       </div>
     </header>
